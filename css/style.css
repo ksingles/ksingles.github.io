@@ -1,0 +1,146 @@
+@import 'https://fonts.googleapis.com/css?family=Bungee+Hairline|Bungee+Shade';
+@import 'https://fonts.googleapis.com/css?family=Dosis';
+
+/* - - - - - - Title Responsivesness - - - - - - - - */
+
+
+
+
+.container-fluid {
+	width: 85%;
+	margin: auto;
+	max-width: 960px;
+}
+
+
+#top-nav .container {
+	width:100%
+}
+/* - - - - - - - Top Logo - - - - - - - - - - - - - -*/
+
+#top-nav .logo h1 {
+	font-family: 'Bungee Shade', sans-serif;
+	font-size: 2.75em;
+	padding-top: 10px;
+	margin: 0;
+	color: #1c2a38;
+	display: block;
+}
+
+#top-nav .logo h2 {
+  font-family: 'Bungee Hairline', sans-serif;
+	font-size: 1.5em;
+	margin: 0;
+	padding: 0;
+	background-color: PapayaWhip;
+	display: block;
+	float: none;
+}
+
+strong {display: inline;
+font-size: 130%;
+position: relative;
+bottom: -15%;
+}
+
+
+/* - - - - - - - - - - - - Navigation - - - - - - - - - - - - - */
+
+
+#top-nav ul {
+	list-style: none;
+	float: right;
+}
+
+#top-nav ul li{
+	display: inline-block;
+	font-family: 'Bungee Hairline', sans-serif;
+	font-size: 1em;
+	color: #114752;
+	margin-left:1em;
+	float: right;
+}
+
+
+/* - - - - - - - - - - - - - - Content - - - - - - - - - - - - - */
+
+hr {border-width: 50px;
+margin: 0;
+border-color: #000;}
+
+content .container-fluid {
+	margin-top: 0;
+	margin-bottom: 0;
+	max-width: 960px;
+}
+
+content p {
+	font-family: 'Dosis Regular', sans-serif;
+	font-size: 1em;
+	text-align:justify;
+	text-align-last:left;
+	padding: .5em;
+}
+
+content h2{
+	font-family: "Bungee Shade", sans-serif;
+	font-size: 2.5em;
+	color: #000;
+	text-align: center;
+	display: block;
+	margin: 15px 0;
+	padding: 0;
+}
+
+
+[class*="col"] {background-color: lightcyan;
+	border-width: 1px;
+	border-color: #000;
+}
+
+content ul li {
+	display: inline-block;
+	font-family: 'Bungee Hairline', sans-serif;
+	font-size: 1.25em;
+	color: #114752;
+}
+
+
+.blue {
+	background-color: lightcyan;
+}
+
+
+/* - - - - - - - - - - - About - - - - - - - - - - - - - - - */
+content [class*="col"] {background-color: lightcyan;
+		text-align: center;}
+
+content [class*="col"] img {margin: 3%;}
+
+#about img {width:85%;}
+
+
+/* - - - - - - - - - - - - Form - - - - - - - - - - - - - - - - */
+
+form {
+  width: 80%;
+  margin: auto;
+}
+
+form p {
+  color: #000;
+  font-size: 18px;
+  font-family: helvetica;
+  margin-bottom: 5px;
+}
+
+input, textarea {
+  width: 100%;
+}
+
+input[type=submit],
+input[type=reset] {
+  width: 100px;
+  float: right;
+  margin-left: 10px;
+}

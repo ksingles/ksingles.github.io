@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <title>Lightbox Example</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style2.css"
+    <link rel="stylesheet" href="css/lightbox.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Lightbox</h1>
+        <p>Lightbox is a JavaScript library that displays images and videos by filling the screen, and dimming out the rest of the web page. The original JavaScript library was written by Lokesh Dhakar</p>
+        <p>For more information, visit <a href="http://lokeshdhakar.com/projects/lightbox2/">http://lokeshdhakar.com/projects/lightbox2/</a></p>
+    </header>
+
+
+    <hr>
+
+<div class="container-fluid">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <div class="col-xs-12 col-md-4">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+        </ol>
+      </div>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner col-xs-12 col-md-8">
+        <div class="item active">
+          <img src="images/home/wolvesbanner2.jpg" alt="...">
+        </div>
+        <div class="item">
+          <img src="images/home/HGbanner.jpg" alt="...">
+        </div>
+        <div class="item">
+          <img src="images/home/skylinebanner.jpg" alt="...">
+        </div>
+        <div class="item">
+          <img src="images/home/wolvesbanner.jpg" alt="...">
+        </div>
+        <div class="item">
+          <img src="images/home/figurebanner.jpg" alt="...">
+        </div>
+        <div class="item">
+          <img src="images/home/skullbanner.jpg" alt="...">
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <p style="text-align:center; font-weight:bold; font-style:italic;">
+<a href="javascript:SwapDivsWithClick('swapper-first','swapper-other')">(Swap Divs)</a>
+</p>
+
+
+
+    <div id="swapper-first" style="display:block; border:2px dashed red; padding:25px;">
+      <p style="margin:0; color:red;">
+This div displayed when the web page first loaded.
+</p>
+</div>
+<div id="swapper-other" style="display:none; border:2px dotted blue; padding:25px;">
+<p style="margin:0; color:blue;">
+This div displayed when the link was clicked.
+</p>
+</div>
+
+
+    <hr>
+
+
+    <section>
+        <h3>Opening a Set of Four Images</h3>
+        <p>This method is best for opening images that are grouped together with other images as additional navigation is available to click though the set of images.</p>
+        <div>
+            <a href="images/home/comics/preybillcover.jpg" data-lightbox="set-adventure-pics" data-title="Click the right half of the image to move forward.">
+            <img src="images/home/Comics/preybillcover.jpg" alt="Image Description" width="10%"/></a>
+
+            <a href="images/home/Comics/preybill-1.jpg" data-lightbox="set-adventure-pics" data-title="Or press the right arrow on your keyboard.">
+            <img class="example-image" src="images/home/comics/preybill-1.jpg" alt="Image Description" width="10%"/></a>
+
+            <a href="images/home/comics/preybill-2.jpg" data-lightbox="set-adventure-pics" data-title="The next image in the set is preloaded as you're viewing.">
+            <img src="images/home/comics/preybill-2.jpg" alt="Image Description" width="20%"/></a>
+
+            <a href="images/home/comics/preybill-3.jpg" data-lightbox="set-adventure-pics" data-title="Click anywhere outside the image or the X to the right to close.">
+            <img src="images/home/comics/preybill-3.jpg" alt="Image Description" width="10%"/></a>
+
+            <a href="images/home/comics/preybill-4.jpg" data-lightbox="set-adventure-pics" data-title="Click anywhere outside the image or the X to the right to close.">
+            <img src="images/home/comics/preybill-4.jpg" alt="Image Description" width="10%"/></a>
+
+            <a href="images/home/comics/preybill-5.jpg" data-lightbox="set-adventure-pics" data-title="Click anywhere outside the image or the X to the right to close.">
+            <img src="images/home/comics/preybill-5.jpg" alt="Image Description" width="10%"/></a>
+
+            <a href="images/home/comics/preybill-6.jpg" data-lightbox="set-adventure-pics" data-title="Click anywhere outside the image or the X to the right to close.">
+            <img src="images/home/comics/preybill-6.jpg" alt="Image Description" width="10%"/></a>
+
+            <a href="images/home/comics/preybill-7.jpg" data-lightbox="set-adventure-pics" data-title="Click anywhere outside the image or the X to the right to close.">
+            <img src="images/home/comics/preybill-7.jpg" alt="Image Description" width="10%"/></a>
+
+            <a href="images/home/comics/preybill-8.jpg" data-lightbox="set-adventure-pics" data-title="Click anywhere outside the image or the X to the right to close.">
+            <img src="images/home/comics/preybill-8.jpg" alt="Image Description" width="10%"/></a>
+        </div>
+    </section>
+
+
+
+
+
+    <hr>
+
+    <section>
+    <div class="container-fluid"
+      <div class="row">
+        <div class="col-xs-12 col-sm-7">
+          <ul>
+            <li><a href="javascript:SwapDivsWithClick('headgames')">Head Games</a></li>
+            <li><a href="javascript:SwapDivsWithClick('hotblooded')">Hot Blooded Man</a></li>
+          </ul>
+        </div>
+        <div id="headgames" class="col-xs-12 col-sm-5" >
+            <a href="images/home/comics/HG13.jpg" data-lightbox="set-adventure-pics" data-title="Click the right half of the image to move forward.">
+            <img src="images/home/Comics/HG13.jpg" alt="Image Description" width="10%"/></a>
+
+            <a href="images/home/Comics/HG25.jpg" data-lightbox="set-adventure-pics" data-title="Or press the right arrow on your keyboard.">
+            <img class="example-image" src="images/home/comics/HG25.jpg" alt="Image Description" width="10%"/></a>
+
+            <a href="images/home/comics/HG32.jpg" data-lightbox="set-adventure-pics" data-title="The next image in the set is preloaded as you're viewing.">
+            <img src="images/home/comics/HG32.jpg" alt="Image Description" width="10%"/></a>
+
+            <a href="images/home/comics/HG100.jpg" data-lightbox="set-adventure-pics" data-title="Click anywhere outside the image or the X to the right to close.">
+            <img src="images/home/comics/HG100.jpg" alt="Image Description" width="10%"/></a>
+
+            <a href="images/home/comics/HG105.jpg" data-lightbox="set-adventure-pics" data-title="Click anywhere outside the image or the X to the right to close.">
+            <img src="images/home/comics/HG105.jpg" alt="Image Description" width="10%"/></a>
+
+            <a href="images/home/comics/HG106.jpg" data-lightbox="set-adventure-pics" data-title="Click anywhere outside the image or the X to the right to close.">
+            <img src="images/home/comics/HG106.jpg" alt="Image Description" width="10%"/></a>
+
+            <a href="images/home/comics/HG108.jpg" data-lightbox="set-adventure-pics" data-title="Click anywhere outside the image or the X to the right to close.">
+            <img src="images/home/comics/HG108.jpg" alt="Image Description" width="10%"/></a>
+
+            <a href="images/home/comics/HG115.jpg" data-lightbox="set-adventure-pics" data-title="Click anywhere outside the image or the X to the right to close.">
+            <img src="images/home/comics/HG115.jpg" alt="Image Description" width="10%"/></a>
+
+            <a href="images/home/comics/HG118.jpg" data-lightbox="set-adventure-pics" data-title="Click anywhere outside the image or the X to the right to close.">
+            <img src="images/home/comics/HG118.jpg" alt="Image Description" width="10%"/></a>
+
+            <a href="images/home/comics/HG124.jpg" data-lightbox="set-adventure-pics" data-title="Click anywhere outside the image or the X to the right to close.">
+            <img src="images/home/comics/HG124.jpg" alt="Image Description" width="10%"/></a>
+
+            <a href="images/home/comics/HG127.jpg" data-lightbox="set-adventure-pics" data-title="Click anywhere outside the image or the X to the right to close.">
+            <img src="images/home/comics/HG127.jpg" alt="Image Description" width="10%"/></a>
+        </div>
+        <div id="hotblooded" class="col-xs-12 col-sm-5">
+            <a href="images/home/comics/preybillcover.jpg" data-lightbox="set-adventure-pics" data-title="Click the right half of the image to move forward.">
+            <img src="images/home/Comics/preybillcover.jpg" alt="Image Description" width="10%"/></a>
+
+            <a href="images/home/Comics/preybill-1.jpg" data-lightbox="set-adventure-pics" data-title="Or press the right arrow on your keyboard.">
+            <img class="example-image" src="images/home/comics/preybill-1.jpg" alt="Image Description" width="10%"/></a>
+
+            <a href="images/home/comics/preybill-2.jpg" data-lightbox="set-adventure-pics" data-title="The next image in the set is preloaded as you're viewing.">
+            <img src="images/home/comics/preybill-2.jpg" alt="Image Description" width="20%"/></a>
+
+            <a href="images/home/comics/preybill-3.jpg" data-lightbox="set-adventure-pics" data-title="Click anywhere outside the image or the X to the right to close.">
+            <img src="images/home/comics/preybill-3.jpg" alt="Image Description" width="10%"/></a>
+
+            <a href="images/home/comics/preybill-4.jpg" data-lightbox="set-adventure-pics" data-title="Click anywhere outside the image or the X to the right to close.">
+            <img src="images/home/comics/preybill-4.jpg" alt="Image Description" width="10%"/></a>
+
+            <a href="images/home/comics/preybill-5.jpg" data-lightbox="set-adventure-pics" data-title="Click anywhere outside the image or the X to the right to close.">
+            <img src="images/home/comics/preybill-5.jpg" alt="Image Description" width="10%"/></a>
+
+            <a href="images/home/comics/preybill-6.jpg" data-lightbox="set-adventure-pics" data-title="Click anywhere outside the image or the X to the right to close.">
+            <img src="images/home/comics/preybill-6.jpg" alt="Image Description" width="10%"/></a>
+
+            <a href="images/home/comics/preybill-7.jpg" data-lightbox="set-adventure-pics" data-title="Click anywhere outside the image or the X to the right to close.">
+            <img src="images/home/comics/preybill-7.jpg" alt="Image Description" width="10%"/></a>
+
+            <a href="images/home/comics/preybill-8.jpg" data-lightbox="set-adventure-pics" data-title="Click anywhere outside the image or the X to the right to close.">
+            <img src="images/home/comics/preybill-8.jpg" alt="Image Description" width="10%"/></a>
+        </div>
+      </div>
+    </div>
+    </section>
+
+
+     <!-- Load the Lightbox & Jquery code after the full page loads -->
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script type="text/javascript">
+    function SwapDivsWithClick(div1,div2,div3)
+    {
+       d1 = document.getElementById(div1);
+       d2 = document.getElementById(div2);
+       d3 = document.getElementById(div3);
+       if( d2.style.display == "none" )
+       {
+          d1.style.display = "none";
+          d2.style.display = "block";
+       }
+       else
+       {
+          d1.style.display = "block";
+          d2.style.display = "none";
+       }
+    }
+    </script>
+
+</body>
+</html>
